@@ -1,6 +1,6 @@
 {
   "name": "vue-text-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A flexible Vue.js loader with an infinite text-filling effect.",
   "main": "dist/vue-text-loader.umd.js",
   "module": "dist/vue-text-loader.esm.js",
