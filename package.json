@@ -28,6 +28,14 @@
   ],
   "author": "Rivaldo",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rivaldojun/vue-text-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rivaldojun/vue-text-loader.git/issues"
+  },
+  "homepage": "https://github.com/rivaldojun/vue-text-loader.git#readme",
   "peerDependencies": {
     "vue": "^3.0.0"
   },
