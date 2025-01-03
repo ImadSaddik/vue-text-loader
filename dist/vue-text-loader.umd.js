@@ -182,7 +182,7 @@
   	GlobalVue.use(plugin);
   }
 
-  exports["default"] = __default__;
+  exports.default = __default__;
   exports.install = install;
 
   Object.defineProperty(exports, '__esModule', { value: true });
