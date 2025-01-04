@@ -131,11 +131,12 @@ export default {
   overflow: hidden;
   text-overflow: ellipsis;
   word-break: break-all;
+  border: 10px solid black;
 }
 
 .rivaldo-text .rivaldo-text-fill {
   fill: v-bind('`url(#${gradientId})`');
-  stroke: none;
+  stroke:  v-bind('fillColor');
   clip-path: inset(100% 0 0 0);
   animation: fill-animation v-bind('animationDuration') v-bind('animationTimingFunction') v-bind('animationIterationCount') v-bind('animationDirection');
 }
@@ -182,20 +183,28 @@ export default {
 }
 
 @keyframes translate-animation {
-  0%{
-    transform: translateX(0px);
+  0% {
+    transform: translateX(0);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  25% {
+  20% {
     transform: translateX(-10px);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  50% {
-    transform: translateX(0px);
+  40% {
+    transform: translateX(0);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  75% {
+  60% {
     transform: translateX(10px);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  80% {
+    transform: translateX(0);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   100% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 }
 

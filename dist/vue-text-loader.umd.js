@@ -87,6 +87,7 @@
     "e3677df8-strokeWidth": (_ctx.strokeWidth),
     "e3677df8-fontStyle": (_ctx.fontStyle),
     "e3677df8-\`url\(\#\$\{gradientId\}\)\`": (("url(#" + (_ctx.gradientId) + ")")),
+    "e3677df8-fillColor": (_ctx.fillColor),
     "e3677df8-animationDuration": (_ctx.animationDuration),
     "e3677df8-animationTimingFunction": (_ctx.animationTimingFunction),
     "e3677df8-animationIterationCount": (_ctx.animationIterationCount),
